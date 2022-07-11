@@ -1,0 +1,103 @@
+h1 , h2, h3 ,h4 ,h5 ,h6 {
+  padding: o;
+  margin: o;
+  text-transform: uppercase;
+}
+ul , li {
+  display: block; /* забирає в ul точки , список */
+  padding: 0;
+  text-transform: uppercase; /* текс великий */
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;  /* позиція по центру */
+}
+.header {
+  background: url(../img/header-bg.jpg) no-repeat center top / cover; 
+  padding: 57px;
+  color: #fff;
+  padding-bottom: 322px;
+}
+header a    {
+  color: #fff;
+}
+
+
+.logo {
+  margin-right: 69px;
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: 14px;
+  letter-spacing: 0.1em;
+}
+.menu li {
+  margin-right: 40px;
+  
+}
+.tel {
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+.nav
+{
+  display: flex;
+  border: 10px solid yellow;
+  align-items: center;
+ }
+ .offer {
+  text-transform: uppercase;
+  margin-top: 216px;
+ }
+ .offer p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+ }
+ .offer h1 {
+  font-size: 100px;
+  letter-spacing: 0.02em;
+  margin-bottom: 19px;
+  margin-top: -29px;
+ } 
+ .bet { 
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238PX;
+
+ }
+ .description {
+display: flex;
+justify-content:space-between;
+ }
+ .description p {
+  font-family: "Open-Sans";
+  font-weight: 480;
+ }
+ .desc-left , .desk-right {
+  width: 567px;
+ }
+ .gallery {
+  margin-top: 67px;
+  display: flex;
+  justify-content:space-between;
+  /* прибивається картинка долівагоі правого краю і розміщується на рівному ростоянію один від одного */
+ }
+ .footer-tex {
+  display: flex;
+  font-size: 15px;
+  padding: 114px 0;
+  font-family: "Open-Sans" ;
+ }
+ .footer-tex p {
+  margin-right: 60px;
+ }
